@@ -197,7 +197,7 @@ $('.skill').appear(function() {
 /*************************
         Isotope
 *************************/
-  $(window).on("load resize",function(e){ 
+$(window).on("load resize",function(e){ 
   var $container = $('.isotope'),
       colWidth = function () {
         var w = $container.width(), 

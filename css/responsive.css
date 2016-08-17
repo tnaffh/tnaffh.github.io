@@ -1,8 +1,8 @@
 /*
 
-Template:  The Corps - Responsive Multi-purpose HTML5 Template
+Template:  Sam Martin - Personal Vcard Resume HTML Templat
 Author: potenzaglobalsolutions.com
-Version: 1
+Version: 1.0
 Design and Developed by: potenzaglobalsolutions.com
 
 NOTE: This is responsive stylesheet of template, This file contains the styling for responsive Template.
@@ -43,20 +43,15 @@ NOTE: This is responsive stylesheet of template, This file contains the styling 
 .contact .social ul li a { padding-right: 15px; }
 .slidebar-share ul li a { padding: 0px 1px; }
 .portfolio-item .item-info a { font-size: 16px; }
-.navbar-default .navbar-nav > li > a { padding: 40px 12px; }
 }
 
 @media (max-width: 1300px) {
-.header { padding: 0px 30px; }
 #menu.sticky { padding: 0 30px; }
 .my-contact .contact-icon { margin-right: 10px; }
 .contact .social h4 { line-height: 28px; }
 .blog-bottom .button-small a { font-size: 12px; padding: 8px 8px; }
 .slidebar-share h4 { font-size: 14px; }
 .portfolio-item .item-info a { font-size: 24px; }
-.navbar-brand img { height: 50px; }
-.navbar-default .navbar-nav > li > a { padding: 40px 12px; }
-#menu.sticky .navbar-nav > li > a { padding: 30px 12px; }
 .container-fluid { padding: 0px 30px; }
 
 
@@ -64,6 +59,7 @@ NOTE: This is responsive stylesheet of template, This file contains the styling 
 
 
 @media (max-width: 1272px) {
+ .navbar-default .navbar-nav > li > a { margin: 0 5px; }
  .title-name-gray strong { font-size: 60px; }
  .my-contact .contact-icon { float: none; }
  .my-contact .contact-icon span { font-size: 22px; }
@@ -93,14 +89,7 @@ NOTE: This is responsive stylesheet of template, This file contains the styling 
 }
 
 @media (max-width: 1198px) {
-.navbar-brand img { height: 40px; }
-.navbar-default .navbar-nav > li > a { padding: 40px 7px; font-size: 13px; }
-#menu.sticky .navbar-nav > li > a { padding: 30px 7px; }
-#menu.sticky .navbar-brand img { height: 35px; }
 .service-block { margin-bottom: 50px; }
-.navbar-brand { padding:32px 0px } 
-#menu.sticky .navbar-brand { padding:22px 0px } 
-
 
 }
 
@@ -118,16 +107,20 @@ NOTE: This is responsive stylesheet of template, This file contains the styling 
 }
 
 @media( max-width:992px) {
-.page-header { padding: 50px 10px; height: 360px; }
-.header { position: relative; padding: 0 20px; background: #2f3742; }
+.page-header { padding: 00px 10px 50px; height: 340px; }
+.header { position: relative; background: #2f3742; padding: 0px; border-bottom: 0px; }
 /*Menu*/
-.navbar-brand { padding: 12px 0px; }
+#menu { padding: 0 20px; }
+#menu.sticky { padding: 0 20px; }
+.navbar-brand { padding: 12px 0px; float: left; }
 .navbar-brand img { height: 35px; }
+.navbar-nav li { float: left; display: block; }
+.navbar-nav, .navbar-nav > li, .navbar-left, .navbar-right, .navbar-header { text-align: left; }
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand { margin-left: 0px; }
- #menu { padding: 0px; }
 .navbar { margin-bottom: 0px; }
- #menu.sticky { padding:  0 20px;  }
-#menu.sticky .navbar-brand { padding:12px 0; } 
+#menu.sticky .navbar-brand { padding:12px 0; display: block; } 
+ .navbar-default .dropdown-menu { left: 7px; }
+/*#menu.sticky.navbar-default .navbar-nav li a { line-height: 30px; }*/
 .navbar-collapse.pull-right { float: none !important; }
 .navbar-header {float: none; padding:0;}
 .navbar-left,.navbar-right { float: none !important; }
@@ -149,15 +142,15 @@ NOTE: This is responsive stylesheet of template, This file contains the styling 
 .navbar-default .navbar-toggle .icon-bar { background-color: #fff; }
 .navbar-default .navbar-toggle:hover>.icon-bar { background-color: #FFF; }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover { background: transparent; color: #07cb79; border-bottom: 0px solid #07cb79; }
-#menu.sticky .navbar-nav > li > a { padding: 10px 0px; }
+#menu.sticky .navbar-nav > li > a { padding: 10px 0px; margin: 0 5px; }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover { border-bottom: 0px; }
 .nav.navbar-nav { padding-bottom: 15px; }
 .navbar-nav > li > .dropdown-menu li a { line-height: 15px; }
+.navbar-default .navbar-nav > li > a { font-size: 13px; }
 .nav.navbar-nav { padding-left: 15px; }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a { color: #fff; }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover { color: #07cb79; }
 .navbar-nav .open .dropdown-menu { position: static; float: none; width: auto; margin-top: 0; background-color: transparent; border: 0; -webkit-box-shadow: none; box-shadow: none; }
-
 
  .content-scroller { margin-left: 0px; padding-top: 50px; }
  #themsbox{position:fixed; left:-230px; top:0; width:230px; height:100%; z-index: 9999; }
@@ -192,7 +185,7 @@ NOTE: This is responsive stylesheet of template, This file contains the styling 
 .page-section  { padding: 40px 0px; } 
 /*.about{ margin-top: 20px; }*/
 .section-title { margin-bottom: 40px; }
-.about { margin-top: 30px; }
+.about  { margin-top: 30px; }
 .about .section-title  { margin-top: 50px; }
 .resume .section-title { margin-bottom: 40px; }
 .resume .resume-info { margin-top: 30px; }
@@ -238,15 +231,14 @@ NOTE: This is responsive stylesheet of template, This file contains the styling 
 
 @media( max-width:479px) {  
  #typer h2 { line-height: 26px; }
-.page-header { padding: 30px 20px; }
-.contact { width: 70%; }
+ .contact { width: 70%; }
 .contact .button-large a { padding: 20px 20px; }
 .section-title-name h2 { font-size: 28px; }
 .page-header .top-bar .back-home.pull-left { float: none !important; margin-bottom: 10px; }
 .page-header .top-bar .back-home a { display: inline-block; }
 .breadcrumb.pull-right { float: none !important; display: inline-block; }
-.page-header .page-header-title { padding: 40px 0px; }
-.page-header-title h1 { font-size: 24px; }
+.page-header .page-header-title { padding: 32px 0px; }
+.page-header-title h1 { font-size: 22px; }
 .main-calendar { padding: 20px 10px; }
 .ui-datepicker td span, .ui-datepicker td a { padding: 0.5em 0em; }
 .ui-datepicker th { padding: 1em 0.5em 2em; }
